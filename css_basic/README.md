@@ -1,0 +1,1 @@
+These folder includes the basics styling of the html files
