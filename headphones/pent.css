@@ -1,0 +1,21 @@
+.pentagon {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+}
+
+.pentagon {
+    clip-path: polygon(50% 0%,
+            /* top point */
+            100% 38%,
+            /* top-right */
+            82% 100%,
+            /* bottom-right */
+            18% 100%,
+            /* bottom-left */
+            0% 38%
+            /* top-left */
+        );
+
+}
